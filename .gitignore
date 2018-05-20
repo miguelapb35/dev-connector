@@ -13,7 +13,8 @@ node_modules/
 .tmp/
 original.json
 working-files/
-config/
+config/keys.js
+client/node_modules/
 
 # OS or Editor folders
 .DS_Store
