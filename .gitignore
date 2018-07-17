@@ -13,7 +13,7 @@ node_modules/
 .tmp/
 original.json
 working-files/
-config/keys.js
+config/keys_dev.js
 client/node_modules/
 
 # OS or Editor folders

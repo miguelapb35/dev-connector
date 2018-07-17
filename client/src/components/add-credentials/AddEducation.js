@@ -49,7 +49,7 @@ class AddEducation extends Component {
       from: this.state.from,
       to: this.state.to,
       current: this.state.current,
-      descritption: this.state.descritption
+      description: this.state.description
     };
 
     this.props.addEducation(eduData, this.props.history);
@@ -74,7 +74,7 @@ class AddEducation extends Component {
               </Link>
               <h1 className="display-4 text-center">Add Education</h1>
               <p className="lead text-center">
-                Add any achool, bootcamp, etc that you have attended.
+                Add any school, bootcamp, etc that you have attended.
               </p>
               <small className="d-block pb-3">* = required fields</small>
               <form onSubmit={this.onSubmit}>

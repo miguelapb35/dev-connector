@@ -49,7 +49,7 @@ class AddExperience extends Component {
       from: this.state.from,
       to: this.state.to,
       current: this.state.current,
-      descritption: this.state.descritption
+      description: this.state.description
     };
 
     this.props.addExperience(expData, this.props.history);
@@ -166,6 +166,7 @@ const mapStateToProps = state => ({
   errors: state.errors
 });
 
-export default connect(mapStateToProps, { addExperience })(
-  withRouter(AddExperience)
-);
+export default connect(
+  mapStateToProps,
+  { addExperience }
+)(withRouter(AddExperience));
